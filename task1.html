@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Feedback Form By Rohit 24MEI10141</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f5f5f5;
+            margin:20px;
+        }
+
+        .container{
+            width:700px;
+            background:white;
+            padding:20px;
+            border:1px solid #ccc;
+        }
+
+        h2{
+            margin-bottom:20px;
+        }
+
+        label{
+            font-weight:bold;
+        }
+
+        input[type="text"],
+        input[type="email"]{
+            width:300px;
+            padding:8px;
+            margin-top:5px;
+            margin-bottom:15px;
+            border:1px solid gray;
+        }
+
+        .name-box{
+            display:flex;
+            gap:20px;
+        }
+
+        .small-text{
+            font-size:12px;
+            color:#555;
+        }
+
+        .stars{
+            font-size:25px;
+            color:#d8a06a;
+            margin:10px 0;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:10px;
+            margin-bottom:20px;
+        }
+
+        th{
+            font-size:13px;
+            font-weight:normal;
+        }
+
+        td{
+            text-align:center;
+            padding:10px;
+            background:#f2f2f2;
+        }
+
+        td:first-child{
+            text-align:left;
+        }
+
+        .section-title{
+            font-weight:bold;
+            margin-top:15px;
+            margin-bottom:10px;
+        }
+
+        button{
+            padding:8px 15px;
+            background:#333;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#555;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <label>Name *</label>
+
+    <div class="name-box">
+        <div>
+            <input type="text">
+            <div class="small-text">First</div>
+        </div>
+
+        <div>
+            <input type="text">
+            <div class="small-text">Last</div>
+        </div>
+    </div>
+
+    <label>Email *</label><br>
+    <input type="email">
+
+    <br>
+
+    <label>Your Experience *</label>
+
+    <div class="stars">
+        ★ ★ ★ ★ ★
+    </div>
+
+    <p>Overall, how would you rate your experience with us?</p>
+
+    <div class="section-title">
+        How satisfied are you with *
+    </div>
+
+    <table border="0">
+        <tr>
+            <th></th>
+            <th>Very Unsatisfied</th>
+            <th>Unsatisfied</th>
+            <th>Neutral</th>
+            <th>Satisfied</th>
+            <th>Very Satisfied</th>
+        </tr>
+
+        <tr>
+            <td>Purchase</td>
+            <td><input type="radio" name="p1"></td>
+            <td><input type="radio" name="p1"></td>
+            <td><input type="radio" name="p1"></td>
+            <td><input type="radio" name="p1"></td>
+            <td><input type="radio" name="p1"></td>
+        </tr>
+
+        <tr>
+            <td>Service</td>
+            <td><input type="radio" name="p2"></td>
+            <td><input type="radio" name="p2"></td>
+            <td><input type="radio" name="p2"></td>
+            <td><input type="radio" name="p2"></td>
+            <td><input type="radio" name="p2"></td>
+        </tr>
+
+        <tr>
+            <td>Company Overall</td>
+            <td><input type="radio" name="p3"></td>
+            <td><input type="radio" name="p3"></td>
+            <td><input type="radio" name="p3"></td>
+            <td><input type="radio" name="p3"></td>
+            <td><input type="radio" name="p3"></td>
+        </tr>
+    </table>
+
+    <div class="section-title">
+        How likely are you to *
+    </div>
+
+    <table border="0">
+        <tr>
+            <th></th>
+            <th>Very Unlikely</th>
+            <th>Unlikely</th>
+            <th>Neutral</th>
+            <th>Likely</th>
+            <th>Very Likely</th>
+        </tr>
+
+        <tr>
+            <td>Buy from us again</td>
+            <td><input type="radio" name="a1"></td>
+            <td><input type="radio" name="a1"></td>
+            <td><input type="radio" name="a1"></td>
+            <td><input type="radio" name="a1"></td>
+            <td><input type="radio" name="a1"></td>
+        </tr>
+
+        <tr>
+            <td>Recommend our product to others</td>
+            <td><input type="radio" name="a2"></td>
+            <td><input type="radio" name="a2"></td>
+            <td><input type="radio" name="a2"></td>
+            <td><input type="radio" name="a2"></td>
+            <td><input type="radio" name="a2"></td>
+        </tr>
+
+        <tr>
+            <td>Recommend our company to others</td>
+            <td><input type="radio" name="a3"></td>
+            <td><input type="radio" name="a3"></td>
+            <td><input type="radio" name="a3"></td>
+            <td><input type="radio" name="a3"></td>
+            <td><input type="radio" name="a3"></td>
+        </tr>
+    </table>
+
+
+
+</div>
+
+</body>
+</html>
