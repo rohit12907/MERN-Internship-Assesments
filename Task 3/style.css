@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Navbar */
+header{
+    background:#203a5b;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    padding:8px 15px;
+}
+
+nav a:hover{
+    background:#314f78;
+    border-radius:5px;
+}
+
+/* Sections */
+section{
+    padding:50px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Home */
+.home{
+    text-align:center;
+    background:#d9e6f5;
+}
+
+.banner{
+    width:80%;
+    max-width:800px;
+    border-radius:10px;
+    margin:20px 0;
+}
+
+.media{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+/* Courses */
+.courses{
+    background:#324a6b;
+    color:white;
+}
+
+.course-box{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.course-box div{
+    width:300px;
+}
+
+.course-box ul,
+.course-box ol{
+    margin-left:25px;
+    line-height:35px;
+}
+
+/* Schedule */
+.schedule{
+    background:#7a624d;
+}
+
+table{
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:#b03a2e;
+    color:white;
+    padding:12px;
+}
+
+td{
+    border:1px solid #ccc;
+    text-align:center;
+    padding:12px;
+}
+
+/* Register */
+.register{
+    background:#324a6b;
+    color:white;
+}
+
+form{
+    width:60%;
+    margin:auto;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+}
+
+.gender{
+    margin-top:10px;
+}
+
+.gender input{
+    width:auto;
+}
+
+button{
+    margin-top:20px;
+    background:#c0392b;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#96281b;
+}
